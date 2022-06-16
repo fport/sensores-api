@@ -24,7 +24,7 @@ require('dotenv').config()
 
 const corsOptions = {
   //To allow requests from client
-  origin: ['http://localhost:3000', 'http://127.0.0.1', 'https://sensores-61r4s1l09-furkanportakal.vercel.app'],
+  origin: ['http://localhost:3000', 'http://127.0.0.1', 'https://sensores-ui.vercel.app'],
   credentials: true,
   withCredentials: true
 }
